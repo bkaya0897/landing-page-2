@@ -1,0 +1,160 @@
+body{
+  font-family:'Ubuntu Mono', monospace;
+  text-align: center;
+}
+h2{
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+em{
+  font-size: 1rem;
+  color : white;
+}
+p{
+  color : #00263B;
+}
+/* Headings */
+
+.heading{
+  color: #FCFFA6;
+  font-size: 4rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+
+}
+
+.title{
+  background-color: #895ECC;
+  overflow: hidden;
+
+}
+
+
+.navbar{
+  padding:0 0 3rem;
+
+}
+
+.navbar-brand{
+  font-family: 'Grechen Fuemen', cursive;
+  font-weight: bold;
+  font-size: 3.2rem;
+
+}
+
+.nav-item{
+  padding: 0 6px;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+  color:  #FCFFA6;
+  font-weight: lighter;
+}
+
+.gif{
+width: 20rem;
+margin-left: 4rem;
+
+
+}
+
+
+
+/* İndirme Butonları */
+
+.download-button{
+  margin: 3% 3% 3% 0;
+}
+
+.features{
+  padding: 7% 12%;
+  background-color: #EFEFEF;
+}
+
+.slogans{
+
+  padding: 4% 0;
+}
+
+.icon{
+  color: #A7C5EB;
+  margin-bottom: 1rem;
+}
+.icon-bilgisi{
+  color:grey;
+}
+
+.icon:hover{
+  color:#A685E2;
+  transform: rotate(7deg);
+  transition: 0.6s;
+}
+
+.testimonials{
+
+  background-color: #895ECC;
+  color: #FCFFA6;
+}
+
+.testimonial-img{
+  width: 12%;
+  margin: 20px;
+  border-radius: 100%;
+
+
+}
+
+.press{
+  background-color: #895ECC;
+  padding-bottom: 1%;
+}
+
+.press-img{
+  width: 14%;
+  margin : 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 12%;
+}
+
+
+.pricing{
+  padding : 100px;
+  background-color: #EFEFEF;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.cta{
+  background-color:#895ECC;
+  color: #FCFFA6;
+  padding: 2%;
+}
+
+.card-body{
+  color : #895ECC;
+}
+.footer{
+  background-color: #895ECC;
+  padding: 0.1rem;
+}
+
+@media (max-width:1200px) {
+  .gif{
+    position: relative;
+    width: 10rem;
+    margin-left: 0;
+
+  }
+  .title{
+    text-align: center;
+  }
+}
